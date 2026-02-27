@@ -1,7 +1,7 @@
 {
   "version": 2,
   "projectId": "346e900f13e7b8d14798c54f",
-  "exportedAt": 1772215638433,
+  "exportedAt": 1772216541745,
   "team": {
     "blueprint": [
       {
@@ -9,6 +9,11 @@
         "type": "orchestrator",
         "templateId": null,
         "children": [
+          {
+            "role": "devops",
+            "type": "worker",
+            "templateId": "builtin:devops"
+          },
           {
             "role": "tester",
             "type": "worker",
@@ -23,25 +28,38 @@
       }
     ],
     "stats": {
-      "totalWorkersSpawned": 2,
+      "totalWorkersSpawned": 3,
       "totalBudgetSpent": 0,
       "firstCreated": "2026-02-27T18:04:36.823Z",
-      "lastActive": "2026-02-27T18:06:42.258Z"
+      "lastActive": "2026-02-27T18:22:09.976Z"
     }
   },
   "agents": [
+    {
+      "id": "worker-devops-b152ff04",
+      "role": "devops",
+      "type": "worker",
+      "status": "done",
+      "templateId": "builtin:devops",
+      "sessionId": "c8a0fa66-14a5-4bd9-ad81-788833b08355",
+      "parentId": "orch-user_project-1d0a9d56",
+      "lastReportAt": null,
+      "budgetSpent": 0,
+      "createdAt": "2026-02-27T18:07:32.569Z",
+      "updatedAt": "2026-02-27T18:09:24.894Z"
+    },
     {
       "id": "worker-tester-38df5478",
       "role": "tester",
       "type": "worker",
       "status": "done",
       "templateId": "builtin:tester",
-      "sessionId": "1a783d21-5e01-457b-9588-054eb5d03846",
+      "sessionId": "c8a0fa66-14a5-4bd9-ad81-788833b08355",
       "parentId": "orch-user_project-1d0a9d56",
       "lastReportAt": null,
       "budgetSpent": 0,
       "createdAt": "2026-02-27T18:06:18.233Z",
-      "updatedAt": "2026-02-27T18:06:42.258Z"
+      "updatedAt": "2026-02-27T18:22:09.976Z"
     },
     {
       "id": "worker-builder-b7154cfd",
@@ -49,12 +67,12 @@
       "type": "worker",
       "status": "done",
       "templateId": "builtin:builder",
-      "sessionId": "3ef75c58-0fd7-4f52-9023-98c32074b87c",
+      "sessionId": "c8a0fa66-14a5-4bd9-ad81-788833b08355",
       "parentId": "orch-user_project-1d0a9d56",
       "lastReportAt": null,
       "budgetSpent": 0,
       "createdAt": "2026-02-27T18:05:17.597Z",
-      "updatedAt": "2026-02-27T18:05:37.037Z"
+      "updatedAt": "2026-02-27T18:21:15.668Z"
     },
     {
       "id": "orch-user_project-1d0a9d56",
@@ -67,11 +85,32 @@
       "lastReportAt": null,
       "budgetSpent": 0,
       "createdAt": "2026-02-27T18:04:36.823Z",
-      "updatedAt": "2026-02-27T18:06:36.840Z"
+      "updatedAt": "2026-02-27T18:21:51.970Z"
     }
   ],
   "lessons": [],
   "reflections": [
+    {
+      "level": "task",
+      "trigger": "task_complete",
+      "output": "{\"difficulties\":[],\"suggestions\":[]}",
+      "lessonsCreated": 0,
+      "createdAt": "2026-02-27T18:21:51.969Z"
+    },
+    {
+      "level": "task",
+      "trigger": "task_complete",
+      "output": "{\"difficulties\":[],\"suggestions\":[]}",
+      "lessonsCreated": 0,
+      "createdAt": "2026-02-27T18:09:46.589Z"
+    },
+    {
+      "level": "task",
+      "trigger": "task_complete",
+      "output": "{\"difficulties\":[],\"suggestions\":[]}",
+      "lessonsCreated": 0,
+      "createdAt": "2026-02-27T18:07:32.669Z"
+    },
     {
       "level": "task",
       "trigger": "task_complete",

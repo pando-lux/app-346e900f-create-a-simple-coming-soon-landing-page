@@ -1,7 +1,7 @@
 {
   "version": 2,
   "projectId": "346e900f13e7b8d14798c54f",
-  "exportedAt": 1772214507515,
+  "exportedAt": 1772215638433,
   "team": {
     "blueprint": [
       {
@@ -25,39 +25,39 @@
     "stats": {
       "totalWorkersSpawned": 2,
       "totalBudgetSpent": 0,
-      "firstCreated": "2026-02-27T17:45:44.944Z",
-      "lastActive": "2026-02-27T17:47:54.576Z"
+      "firstCreated": "2026-02-27T18:04:36.823Z",
+      "lastActive": "2026-02-27T18:06:42.258Z"
     }
   },
   "agents": [
     {
-      "id": "worker-tester-dfce3e69",
+      "id": "worker-tester-38df5478",
       "role": "tester",
       "type": "worker",
       "status": "done",
       "templateId": "builtin:tester",
-      "sessionId": "e169e040-32b9-403a-8f16-4810cec4ced4",
-      "parentId": "orch-user_project-4a6b35de",
+      "sessionId": "1a783d21-5e01-457b-9588-054eb5d03846",
+      "parentId": "orch-user_project-1d0a9d56",
       "lastReportAt": null,
       "budgetSpent": 0,
-      "createdAt": "2026-02-27T17:47:29.095Z",
-      "updatedAt": "2026-02-27T17:47:54.576Z"
+      "createdAt": "2026-02-27T18:06:18.233Z",
+      "updatedAt": "2026-02-27T18:06:42.258Z"
     },
     {
-      "id": "worker-builder-5e787f1e",
+      "id": "worker-builder-b7154cfd",
       "role": "builder",
       "type": "worker",
       "status": "done",
       "templateId": "builtin:builder",
-      "sessionId": "df3ee514-a0c7-459c-9ef0-32d6c6de1611",
-      "parentId": "orch-user_project-4a6b35de",
+      "sessionId": "3ef75c58-0fd7-4f52-9023-98c32074b87c",
+      "parentId": "orch-user_project-1d0a9d56",
       "lastReportAt": null,
       "budgetSpent": 0,
-      "createdAt": "2026-02-27T17:46:26.990Z",
-      "updatedAt": "2026-02-27T17:46:48.452Z"
+      "createdAt": "2026-02-27T18:05:17.597Z",
+      "updatedAt": "2026-02-27T18:05:37.037Z"
     },
     {
-      "id": "orch-user_project-4a6b35de",
+      "id": "orch-user_project-1d0a9d56",
       "role": "user_project",
       "type": "orchestrator",
       "status": "active",
@@ -66,8 +66,8 @@
       "parentId": null,
       "lastReportAt": null,
       "budgetSpent": 0,
-      "createdAt": "2026-02-27T17:45:44.944Z",
-      "updatedAt": "2026-02-27T17:47:44.988Z"
+      "createdAt": "2026-02-27T18:04:36.823Z",
+      "updatedAt": "2026-02-27T18:06:36.840Z"
     }
   ],
   "lessons": [],
@@ -77,7 +77,7 @@
       "trigger": "task_complete",
       "output": "{\"difficulties\":[],\"suggestions\":[]}",
       "lessonsCreated": 0,
-      "createdAt": "2026-02-27T17:47:29.189Z"
+      "createdAt": "2026-02-27T18:06:18.329Z"
     }
   ],
   "directives": []
